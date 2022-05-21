@@ -1,4 +1,5 @@
 ## Swift
+- [전체](https://neuli.notion.site/74fb727bd22e431cb9e36bcd77793555)
 - [변수, 상수, 데이터타입](https://neuli.notion.site/967793f14fb5431e8a826d4d0f3f5282)
 - [기본연산자](https://neuli.notion.site/Basic-Operators-9723d7b333e54578b722e4d9e8e03bbf)
 - [조건문, 반복문](https://neuli.notion.site/1c659e54764342e6bc93ef17c6a0ec5a)
@@ -14,6 +15,12 @@
 - [타입 캐스팅 Type casting](https://neuli.notion.site/Type-Casting-cadfbc10f5fc457087721a9129dd30a5)
 - [확장 Extension](https://neuli.notion.site/Extensions-2aff34a1a152446eb65aa7364d88e3c3)
 - [프로토콜 Protocol](https://neuli.notion.site/Protocols-2c8e380bb0614dd9aa0d4f8693a995f6)
+- [메서드 디스패치 Method Dispatch](https://neuli.notion.site/Method-Dispatch-86a4fdb871494a60934d3d14ac985c12)
+- [중첩타입 Nested Type](https://neuli.notion.site/Nested-Type-29dbeda6774d4907ba20a4dc6eb66e01)
+- [self, Self](https://neuli.notion.site/self-vs-Self-d85c9553220d4e92aaab01c534a0f5fb)
+- [클로저 Closure](https://neuli.notion.site/Closures-8b34bae8e7e04cf7b1bba2826343c2f5)
+- [고차함수](https://neuli.notion.site/7eaf98486d38401e9153e96130c370ad)
+- [함수형 프로그래밍](https://neuli.notion.site/42bd1f85a39e489e93795ebcfe1b6c16)
 
 
 ## 코딩테스트

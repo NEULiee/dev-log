@@ -25,6 +25,9 @@
 - [에러처리 Error Handling](https://neuli.notion.site/ErrorHandling-7334dd8625b84fdc8a89d229e67a44fc)
 - [iOS 네트워킹](https://neuli.notion.site/Networking-cc5f4c34042b4bea935cc7b3aa9d13da)
 - [iOS 동시성 프로그래밍](https://neuli.notion.site/110720cc090d4b2e89b6975534780fda)
+- [제네릭 Generics](https://neuli.notion.site/Generics-08a9f3f7910b4b4db3c0678c0c3faf39)
+- [Result 타입](https://neuli.notion.site/Result-Type-f1cbfe2b645c49e2b0b9532bd8cd1adb)
+- [Swift Date](https://neuli.notion.site/Swift-aa06ecc985ac44bf8c92364edfeec5aa)
 
 
 ## 코딩테스트

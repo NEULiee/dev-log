@@ -28,6 +28,8 @@
 - [제네릭 Generics](https://neuli.notion.site/Generics-08a9f3f7910b4b4db3c0678c0c3faf39)
 - [Result 타입](https://neuli.notion.site/Result-Type-f1cbfe2b645c49e2b0b9532bd8cd1adb)
 - [Swift Date](https://neuli.notion.site/Swift-aa06ecc985ac44bf8c92364edfeec5aa)
+- [접근제어 Access Control](https://neuli.notion.site/Access-Control-608a38ce38ed4268ab2fb9b35977d10f)
+- [문자열과 문자 String & Character](https://neuli.notion.site/String-Character-ddd7ed8ac3a74d61b3505f9de95d8c35)
 
 
 ## 코딩테스트

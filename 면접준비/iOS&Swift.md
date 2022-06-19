@@ -209,6 +209,8 @@ func **applicationWillTerminate**(_ application: UIApplication)
 - `userInitiated`: 문서를 열람하거나 인터페이스에 제스쳐를 취하는 등 사용자와의 상호작용이 시작되었을 때 곧바로 결과를 반환해야 하는 작업에 사용합니다.
 - `default`: 기본값입니다. 일반적인 작업에 사용합니다.
 - `utility`: 데이터를 다운로드 하는 등 결과를 만들기 위해 시간이 걸리는 작업에 사용합니다. 프로그래스 바나 액티비티 인디케이터와 함께 사용합니다.
+- `background`: 유저가 직접적으로 인지하지 않고 시간이 중요하지 않은 작업등에 사용합니다.
+- `unspecified`: legacy API에 사용하고 보통 사용하지 않습니다.
 
 
 ## iOS 앱을 만들고, User Interface를 구성하는 데 필수적인 프레임워크 이름은 무엇인가?

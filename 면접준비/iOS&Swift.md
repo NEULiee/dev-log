@@ -240,7 +240,7 @@ weak var 로 선언하기 때문에 retain이 발생하지 않습니다.
 
 ## NotificationCenter 동작 방식과 활용 방안에 대해 설명하시오.
 
-NotificationCenter는 싱글톤 객체로 notification을 보낼 객체들을 addObserver로 등록합니다. Notification을 보낼 때는 post 함수를 호출하여 주어진 정보를 notificationcenter의 객체들에게 보내게됩니다.
+NotificationCenter는 싱글톤 객체로 notification을 보낼 객체들을 addObserver로 등록합니다. 그리고 Notification을 보낼 때는 post 함수를 호출하여 주어진 정보를 notificationcenter의 여러 객체들에게 보내게됩니다.
 
 옵저버 패턴이지만 중간 역할을 하는 NotificationCenter가 있기 때문에 한번에 여러 객체에게 정보를 보내고자할 때 브로드캐스팅의 목적으로 사용할 수 있습니다.
 
@@ -276,6 +276,7 @@ View는 사용자 인터페이스의 기본 구성 요소이며 화면에 컨텐
 
 ## UIView 에서 Layer 객체는 무엇이고 어떤 역할을 담당하는지 설명하시오.
 
+뷰의 컨텐츠와 애니메이션 처리를 담당합니다.
 CALayer 타입의 객체입니다. CA는 Core Animation 프레임워크의 약자이며 애니메이션이나 복잡한 화면에 대한 처리를 담당합니다. CALayer는 별도의 스레드에서 GPU를 사용해 화면을 그리는 작업을 수행하는 객체입니다.
 
 

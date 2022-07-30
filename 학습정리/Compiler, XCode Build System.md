@@ -65,8 +65,8 @@
 
 > preprocessing 과정의 목적은 소스 프로그램을 컴파일러에게 제공할 수 있는 방식으로 변환하는 것입니다.
 > 
-- It replaces macros with their definitions, discovers dependencies and resolves preprocessor directives.
-(해석이 잘 안되는데.. 매크로를 정의로 대체하고, dependency를 발견하며, preprocessor 지시문을 해결합니다?)
+- Swift 컴파일러에는 전처리기가 없어서 Swift 프로젝트에서는 매크로를 정의할 수 없습니다.
+    - 하지만 XCode 빌드 시스템은 이를 Build Settings에서 설정할 수 있는 Active Compilation Conditions를 통해 전처리를 수행할 수 있습니다.
 - XCode는 하위 레벨 빌드 시스템 (lower-level build system)인 `llbuild` 를 통해 dependency를 해결합니다.
 
 ## 2. Compiler

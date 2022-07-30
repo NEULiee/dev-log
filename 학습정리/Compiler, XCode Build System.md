@@ -44,6 +44,8 @@
 > 
 - 소스코드를 각각 의미별로 분리하여 컴퓨터가 이해할 수 있는 구조로 변경시킨 트리입니다.
 
+<br><br>
+
 # XCode Build System
 
 [Understanding Xcode Build System](https://www.vadimbulavin.com/xcode-build-system/)
@@ -124,6 +126,8 @@
 > 마지막으로 Loader는 프로그램을 메모리로 가져와서 실행합니다.
 > 
 - Loader는 프로그램을 실행하는데 필요한 메모리 공간을 할당하고 레지스터를 초기 상태로 초기화합니다.
+
+<br><br>
 
 # iOS의 인터페이스 빌더 - 스토리보드, nib (xib)
 

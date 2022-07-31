@@ -36,14 +36,14 @@
 - Virtual Memory는 공간을 **페이지**라고 불리는 Chunk로 나눕니다.
 - **페이지**는 어떤 종류의 데이터도 담을 수 있는 **16KB** Chunk 입니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6d3221e1-7266-4ea1-b585-3222d79906aa/Untitled.png)
+![image](https://user-images.githubusercontent.com/39167842/182015791-4c7d8967-fc92-400d-9914-8e5957f7584b.png)
 
 ### Memory Maaped files
 
 - 50KB 크기의 JPEG가 메모리에  매핑되면 실제로 4페이지의 메모리에  매핑되거나 제공됩니다.
 - 네번째 페이지는 실제로 완전히 채워지지 않았으므로 다른 용도로 사용할 수 있습니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d3559e3e-63a3-4511-85c1-21b32fec23e5/Untitled.png)
+![image](https://user-images.githubusercontent.com/39167842/182015808-2565acaa-2cba-418e-8b94-1007efb43273.png)
 
 - Clean Memory
     
@@ -59,15 +59,14 @@
     
     할당은 되었으나 접근하지않은 페이지를 압축하고 접근시 페이지 압축을 해제합니다.
     
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1bb7a43f-2da0-4c67-90b3-8ffda5692aca/Untitled.png)
+![image](https://user-images.githubusercontent.com/39167842/182015819-25114d65-76ae-46d5-9c79-121648b954a1.png)
 
 - 사용중인 메모리는 Dirty + Compressed memory 입니다.
 - clean memory는 언제든지 복원할 수 있기 때문에 쉽게 무시할 수 있습니다.
 
 ### 일반적인 App memory profile
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12d47c05-98b5-4121-98cd-b6d8afb47514/Untitled.png)
+![image](https://user-images.githubusercontent.com/39167842/182015829-ecee0058-8a2e-425a-a36f-9cffcb2d26d1.png)
 
 - 클린 메모리는 실제로 계산되지 않습니다.
 - 모든 앱에는 설치 공간 제한이 있습니다.
@@ -177,8 +176,10 @@ Swift 의 경우 컴파일러가 `retain()`, `release()` 코드를 자동으로 
 
 ### Memory Graph Debugger
 
-> 디버깅  창에 Memory 선택시 그래프로 메모리 용량을 볼 수 있다!
-> 
+> 디버깅  창에 Memory 선택시 그래프로 메모리 용량을 볼 수 있다!  
+
+![image](https://user-images.githubusercontent.com/39167842/182015849-74dcbf68-70d9-4476-8b13-bceb81d77b6b.png)
+
 
 
 ### Memory snapshot의 Memory 정보를 보여주는 Graph Debugger
@@ -187,13 +188,18 @@ Swift 의 경우 컴파일러가 `retain()`, `release()` 코드를 자동으로 
 > 
 
 사실 무슨의미인지는  잘 모르겠다..ㅎ
+![image](https://user-images.githubusercontent.com/39167842/182015859-36dff79b-1373-4ec5-bfa4-3cc353eb6767.png)
+
 
 
 ### Command Line Tool
 
 1. Memory Graph 파일 추출
 
-> 터미널에서 `vmmap —summary [파일이름].memgraph` 입력
+![image](https://user-images.githubusercontent.com/39167842/182015872-6bf2aac3-26bf-40dc-8cd9-550bc5d4589d.png)
+
+
+2. 터미널에서 `vmmap —summary [파일이름].memgraph` 입력
 - 뭐가 주르르륵 뜬다. 현재 프로세스에 할당된 가상 메모리 공간 !!
 
 ```swift
